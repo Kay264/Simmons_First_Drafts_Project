@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Schedule Builder</title>
+
+     <!--Link to normalize CSS-->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+     <!--Google font Links-->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Didact+Gothic&family=Kode+Mono:wght@400..700&family=Mansalva&family=Matemasie&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Pirata+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Didact+Gothic&family=Kode+Mono:wght@400..700&family=Mansalva&family=Matemasie&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Pirata+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Didact+Gothic&family=Kode+Mono:wght@400..700&family=Mansalva&family=Matemasie&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Pirata+One&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Didact+Gothic&family=Electrolize&family=Kode+Mono:wght@400..700&family=Mansalva&family=Matemasie&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Pirata+One&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+     
+     
+     <!--stylesheet-->
+     <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div id = "head1">
+            <h1>Aggie Path</h1>
+
+            <figure id = "headerImg">
+                <img src = "images/cow.png" alt = "smart cow icon">
+            </figure>
+        </div>
+        <h2>Welcome to Aggie Path, a UC Davis AI Schedule generator!</h2>
+
+    </header>
+
+    <section>
+        <article>
+
+            <h3> What is Aggie Path?</h3>
+            <p>
+                Aggie Path is an AI class recommendation system tailor made to help UC Davis Computer Science students find their optimal schedule.
+                This project was made by students for students. 
+            </p>
+
+            
+
+            <p>
+                The system uses a few different mechanisms. 
+                The system uses contrait-based optimization and rule-based filtering to address hard and soft constraints.
+                The system employs XGBoost for decision making.
+                Lastly, the system utilizes a decision tree to validate the system with example transcripts.
+            </p>
+
+            <figure>
+                <img id = "userflow" src = "images/flow2.png" alt = "AI flow">
+            </figure>
+
+            <h3>How to use Aggie Path:</h3>
+
+            <ol>
+                <li>Upload a PDF of your most recent transcript</li>
+                <li>Aggie Path will consider your degree requirements and schedule constraints</li>
+                <li>Aggie Path will give you your recommended schedule</li>
+            </ol>
+
+            <p> it's that easy!</p>
+        </article>
+
+        <div id = "buttons">
+
+            <button type="button">upload transcript</button>
+
+        </div>
+
+        <article>
+            <!--add generated schedule here-->
+        </article>
+
+        <article>
+            <h3>Aggie Path going forward</h3>
+
+            <p>
+                If this project is able to go further, it would be expanded to include students from all UC Davis majors.
+                The application would also consider adding the following:
+            </p>
+
+            <ol>
+                <li>adding a minor or second major to your degree requirements</li>
+                <li>further personalization</li>
+                <li>schedule generation further than a quarter</li>
+            </ol>
+        </article>
+
+    </section>
+
+    <footer>
+        <p> insert footer content</p>
+    </footer>
+    
+</body>
+</html>

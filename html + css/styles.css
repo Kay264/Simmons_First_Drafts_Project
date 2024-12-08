@@ -1,0 +1,98 @@
+body{
+
+
+    background-color: rgb(200, 225, 239);
+    text-align: center;
+    font-family: "Didact Gothic";
+    color: rgb(67, 67, 67);
+    font-size: 18px;
+    
+}
+
+header{
+    padding: 30px;
+    margin: auto;
+}
+
+#head1{
+    background-color: rgb(251, 249, 246);
+    padding: 20px;
+}
+
+h1{
+    font-family: "Press Start 2P";
+    font-size: 60px;
+    color: rgb(218, 146, 38)
+}
+
+h2{
+    font-family: "Electrolize";
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 3px dotted rgb(218, 146, 38);
+    border-top: 3px dotted rgb(218, 146, 38);
+}
+
+h3{
+    font-family: "Electrolize";
+    padding-top: 30px;
+}
+
+p{
+    line-height: 40px;
+    padding-top: 30px;
+}
+
+ol li{
+    line-height: 40px;
+}
+
+button{
+    background-color: rgb(218, 146, 38);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+figure{
+    padding: 70px;
+    
+}
+
+img{
+    border-radius: 10px;
+}
+
+#userflow{
+    border: 2px solid black;
+}
+
+section{
+    margin: auto;
+    padding: 150px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(251, 249, 246);
+}
+
+article{
+    text-align: left;
+}
+
+#buttons{
+    padding: 50px;
+}
+
+footer{
+    padding: 40px;
+    margin-top: 80px;
+    background-color: rgb(186, 170, 150);
+
+}
+
